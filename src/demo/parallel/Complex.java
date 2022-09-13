@@ -60,6 +60,14 @@ public class Complex {
         im = imag;
     }
 
+    public double GetReal(){
+        return this.re;
+    }
+
+    public double GetImag(){
+        return this.im;
+    }
+
     /**
      * Add operation.
      * @param b summand
